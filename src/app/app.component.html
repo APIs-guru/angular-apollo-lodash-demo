@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngIf="loading"> Loading... </div>
+<dl>
+  <div *ngFor="let person of people">
+    <dt>{{person.name}}</dt>
+    <dd>
+        <div *ngFor="let film of person.films"> {{film}} </div>
+    </dd>
+  </div>
+</dl>

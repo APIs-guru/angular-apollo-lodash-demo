@@ -1,27 +1,17 @@
-# AngularApolloLodashDemo
+# Apollo Angular + GraphQL Lodash demo
 
+**Important**: Please read [GraphQL Lodash](https://github.com/APIs-guru/graphql-lodash) README before playing with this repository.
+
+This is the simple example of usage [GraphQL Lodash](https://github.com/APIs-guru/graphql-lodash) with [Apollo Angular](https://github.com/apollographql/apollo-angular). Here are the key elements:
+* [Wrapper function](src/app/watchQuery.lodash.ts) that ties together Apollo Angular and GraphQL Lodash.
+* [Example](src/app/app.component.ts) of Angular Component that uses wrapper to query transformed with lodash data.
+
+------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.5.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
